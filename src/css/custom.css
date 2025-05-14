@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes drop-shadow-3d {
+  0% { 
+    transform: translateY(20px) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes shine {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes sparkle {
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(0); opacity: 0; }
+}
+
+.footer__item{
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.navbar__items{
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
+:root {
+  --search-local-modal-width: 480px;
+  --search-local-highlight-color: #5468ff;
+} 
+
+html[data-theme="dark"] {
+  --search-local-highlight-color: #d23669;
+}
+
+:root {
+  --docusaurus-highlighted-code-line-bg: rgb(245, 245, 245);
+}
+
+[data-theme='dark'] {
+  /* 暗黑模式高亮主题下用的背景色 */
+  --docusaurus-highlighted-code-line-bg: rgb(63, 63, 63);
+}
+
+@keyframes ani-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ani-spin-reverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+html[data-theme="dark"] {
+  .footer__copyright {
+    a {
+      color: #e3e3e3;
+    }
+  }
+}
+.footer__copyright {
+  a {
+    color: black;
+  }
+}
