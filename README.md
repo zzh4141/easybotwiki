@@ -1,0 +1,2 @@
+# easybotwiki
+EasyBot文档
