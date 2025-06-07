@@ -49,6 +49,7 @@ const sidebars: SidebarsConfig = {
           {
             "NapCat": [
               "easybot/quick_start/robot/napcat_windows/install_napcat_windows",
+              "easybot/quick_start/robot/napcat_windows/install_napcat_windows_OneKey",
               "easybot/quick_start/robot/napcat_docker/install_napcat_docker"
             ]
           },
@@ -89,7 +90,7 @@ const sidebars: SidebarsConfig = {
             {
               "type": "link",
               "label": "模板市场",
-              "href": "https://bbs.hualib.com/"
+              "href": "https://ez.bioc.fun/"
             }
           ]
         },

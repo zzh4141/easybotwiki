@@ -116,6 +116,16 @@ const config: Config = {
           ],
         },
         {
+          to: '/pay',
+          label: '赞助',
+          position: 'right',
+        },
+        {
+          to: '/join-qq-group',
+          label: '加入QQ群',
+          position: 'right',
+        },
+        {
           type: 'dropdown',
           label: '链接',
           position: 'right',
@@ -129,12 +139,7 @@ const config: Config = {
               href: 'https://space.bilibili.com/107913373',
             },
           ],
-        },
-        {
-          to: '/join-qq-group',
-          label: '加入QQ群',
-          position: 'right',
-        },
+        }
       ],
     },
     footer: {
@@ -154,7 +159,7 @@ const config: Config = {
           items: [
             {
               label: 'EasyBot论坛',
-              href: 'https://ez.bioc.fun',
+              href: 'https://bbs.hualib.com',
             },
             {
               label: '交流群 一群',
@@ -172,6 +177,7 @@ const config: Config = {
           ],
         },
       ],
+      copyright: '<CustomFooter />',
     },
     prism: {
       theme: prismThemes.vsLight,

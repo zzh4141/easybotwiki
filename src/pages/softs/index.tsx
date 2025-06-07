@@ -50,7 +50,7 @@ export default function Softs() {
         <Layout
             title={`应用目录`}
             description="应用目录">
-            <div className="p-10 max-w-[1200px] mx-auto flex items-center flex-col">
+            <div className="p-10 max-w-[1200px] mx-auto flex items-center flex-col softs-page">
                 <Title colorChange></Title>
                 <div className="my-10 h-[2px] bg-gray-500/20 w-full"></div>
                 <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
